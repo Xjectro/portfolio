@@ -1,6 +1,7 @@
 # 🚀 Portfolio
 
 <img src="/images/portfolio.jpg" />
+
 This project is a **Nuxt 3** application built with **TypeScript**, **Tailwind CSS**, and several other modern web technologies. The application leverages various tools and libraries to provide a secure, scalable, and feature-rich environment.
 
 ## ✨ Features
