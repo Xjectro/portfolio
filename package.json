@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "format": "prettier --write ./",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.8.0",
+    "clsx": "^2.1.1",
+    "nuxt": "^3.13.2",
+    "prettier": "^3.3.3",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animated": "^1.1.2",
+    "tailwindcss-bg-patterns": "^0.3.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.5.7",
+    "@nuxt/icon": "^1.5.2",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia/nuxt": "^0.5.4",
+    "@vueuse/nuxt": "^11.1.0"
+  }
+}
