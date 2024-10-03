@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="app">
     <div class="flex flex-col items-start gap-5 w-full">
-      <SectionLabel label=" who am i" />
+      <SectionLabel label="who am i" />
       <Paragraph>
         test
         <ParagraphLink label="Punky" href="https://punky.ai/" />, backed by
@@ -9,9 +9,7 @@
       </Paragraph>
     </div>
     <div class="flex flex-col items-start gap-5 w-full h-full">
-      <h6 class="flex underline font-chakra-petch font-bold text-lg text-white">
-        Cv
-      </h6>
+      <SectionLabel label="Cv" />
       <Button severity="alien" class="px-5 py-3" @interaction="downloadCV">
         Download CV
       </Button>
